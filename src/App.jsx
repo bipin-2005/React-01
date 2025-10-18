@@ -90,16 +90,16 @@ const App = () => {
 
       <div className="footer">
         <div className="company">
-          <img src="microsoft.png" alt="Microsoft_logo" />
-          <img src="google.png" alt="google_logo" />
-          <img src="facebook.png" alt="facebook_logo" />
-          <img src="IBM.png" alt="IBM_logo" />
+          <div><img src="microsoft.png" alt="Microsoft_logo" /></div>
+          <div><img src="google.png" alt="google_logo" /></div>
+          <div><img src="facebook.png" alt="facebook_logo" /></div>
+          <div><img src="IBM.png" alt="IBM_logo" /></div>
         </div>
         <div className="end">
-          <p>Copyright@Mystudio 2022</p>
-          <p><img id="end_logo" src="ssmedia.png" alt="socialmedia" /></p>
-          <p><a href="#">Privacy Policy</a></p>
-          <p><a href="#">Form of Use</a></p>
+          <div>Copyright@Mystudio 2022</div>
+          <div><img id="end_logo" src="ssmedia.png" alt="socialmedia" /></div>
+          <div><a href="#">Privacy Policy</a></div>
+          <div><a href="#">Form of Use</a></div>
         </div>
       </div>
     </>
